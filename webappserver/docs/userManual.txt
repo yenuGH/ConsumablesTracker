@@ -1,0 +1,2 @@
+Just run the project and interact with the GUI to use the web app server.
+User manual on how to use the GUI is in the other project.

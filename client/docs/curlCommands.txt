@@ -1,0 +1,26 @@
+**All these curl commands were generated and used within a Linux Ubuntu 20.04 LTS terminal through WSL (Windows Subsystem for Linux)**
+**These commands were also performed on MacOS Monterey's terminal as well for further operating system testing).
+
+# Read the hello message
+curl -i -H "Content-Type: application/json" -X GET localhost:8080/ping
+
+# Read the goodbye message and save the ArrayList<Consumables> to itemsList.json
+curl -i -H "Content-Type:application/json" -X GET localhost:8080/exit
+
+# Add new consumable
+curl -i -H "Content-Type: application/json" -X POST -d '{ "type": 1, "name": "something", "notes": "something", "price": 2.22, "measurement": 9.99, "expiryDate": "2021-12-25" }' localhost:8080/addItem
+
+#List all consumables
+curl -i -H "Content-Type: application/json" -X GET localhost:8080/listAll
+
+#List expired consumables
+curl -i -H "Content-Type: application/json" -X GET localhost:8080/listExpired
+
+#List unexpired consumables
+curl -i -H "Content-Type: application/json" -X GET localhost:8080/listNonExpired
+
+#List expiring consumables
+curl -i -H "Content-Type: application/json" -X GET localhost:8080/listExpiringIn7Days
+
+# Remove consumable (requires the consumable's parameters to be passed in as a JSON object)
+curl -i -H "Content-Type: application/json" -X POST -d '{ "type": 1, "name": "something", "notes": "something", "price": 2.22, "measurement": 9.99, "expiryDate": "2021-12-25" }' localhost:8080/removeItem

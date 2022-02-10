@@ -1,0 +1,146 @@
+[
+  {
+    "type": 2,
+    "name": "milk",
+    "notes": "",
+    "price": 3.45,
+    "measurement": 0.0,
+    "expiryDate": "2021-09-30"
+  },
+  {
+    "type": 1,
+    "name": "testing out encapsulation",
+    "notes": "notehing",
+    "price": 0.0,
+    "measurement": 0.0,
+    "expiryDate": "2021-10-21"
+  },
+  {
+    "type": 1,
+    "name": "remove this food 1",
+    "notes": "",
+    "price": 420.69,
+    "measurement": 0.0,
+    "expiryDate": "2021-10-25"
+  },
+  {
+    "type": 1,
+    "name": "mooncakes",
+    "notes": "serve with tea",
+    "price": 14.99,
+    "measurement": 0.0,
+    "expiryDate": "2021-10-28"
+  },
+  {
+    "type": 2,
+    "name": "remove this drink 3",
+    "notes": "",
+    "price": 420.69,
+    "measurement": 0.0,
+    "expiryDate": "2021-10-30"
+  },
+  {
+    "type": 2,
+    "name": "a DRINK ITEM that is EXPIRED",
+    "notes": "MWAHAHAHAHA LOLOL KEKEKEW",
+    "price": 456.0,
+    "measurement": 97.0,
+    "expiryDate": "2021-12-01"
+  },
+  {
+    "type": 1,
+    "name": "puo",
+    "notes": "99",
+    "price": 99.0,
+    "measurement": 99.0,
+    "expiryDate": "2021-12-04"
+  },
+  {
+    "type": 1,
+    "name": "something new",
+    "notes": "7667",
+    "price": 54.0,
+    "measurement": 2345.0,
+    "expiryDate": "2021-12-06"
+  },
+  {
+    "type": 1,
+    "name": "poyo",
+    "notes": "",
+    "price": 99.0,
+    "measurement": 99.0,
+    "expiryDate": "2021-12-07"
+  },
+  {
+    "type": 2,
+    "name": "multiple words",
+    "notes": "435",
+    "price": 354.0,
+    "measurement": 4.0,
+    "expiryDate": "2021-12-08"
+  },
+  {
+    "type": 1,
+    "name": "this is an expiring item in 7 days",
+    "notes": "made on dec3, expiring on dec10",
+    "price": 94.0,
+    "measurement": 84.21,
+    "expiryDate": "2021-12-10"
+  },
+  {
+    "type": 1,
+    "name": "do something",
+    "notes": "adfs",
+    "price": 34.0,
+    "measurement": 24.0,
+    "expiryDate": "2021-12-22"
+  },
+  {
+    "type": 2,
+    "name": "anything at all",
+    "notes": "123",
+    "price": 321.0,
+    "measurement": 543.0,
+    "expiryDate": "2021-12-31"
+  },
+  {
+    "type": 1,
+    "name": "bryan\u0027s ass is a smoothie",
+    "notes": "because his shit is sweet KEKEKEKE",
+    "price": 420.69,
+    "measurement": 0.0,
+    "expiryDate": "2022-04-02"
+  },
+  {
+    "type": 1,
+    "name": "salmon sushi roll",
+    "notes": "needs more wasabi",
+    "price": 6.99,
+    "measurement": 0.0,
+    "expiryDate": "2022-04-02"
+  },
+  {
+    "type": 2,
+    "name": "remove this drink 1",
+    "notes": "",
+    "price": 420.69,
+    "measurement": 0.0,
+    "expiryDate": "2022-04-02"
+  },
+  {
+    "type": 1,
+    "name": "adding an item that is",
+    "notes": "expiring in 2023",
+    "price": 13.37,
+    "measurement": 420.69,
+    "expiryDate": "2023-12-30"
+  },
+  {
+    "type": 1,
+    "name": "remove this food 2",
+    "notes": "",
+    "price": 420.69,
+    "measurement": 0.0,
+    "expiryDate": "2069-10-21"
+  }
+]

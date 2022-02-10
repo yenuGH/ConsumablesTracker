@@ -1,0 +1,33 @@
+Operation 1: List all items.
+	- By default, the program will list all items.
+	- To go back to listing all items, all the user has to do is click the "All" button.
+	- If there are no items, it will display "No items to show."
+	
+Operation 2: Add a new item.
+	- The "Add Item" button is available all throughout the program (except for in the AddItemDialog).
+	- To successfully add an item, the user must fill all fields (except for 'Notes:") and must select an expiration date.
+	- If a user leaves any field blank, a message will show up telling the user to fill out the required fields.
+	- If a user enters in a negative value for the item's price and weight/volume, a message will show up telling the user that all numerical values must be valid.
+	- If a user manually enters in an invalid date, a message will show up telling the user the expiry date must also be valid.
+	- If a user wishes to cancel adding an item, the user can click the "X" at the top right or click on cancel.
+	- Once a new item is successfully added, the user will see the item in the correct sorted position in the last selected listing option (the active one) instantly.
+	
+Operation 3: Remove an item.
+	- Each individual item on each listing option will have a remove button. 
+	- If the user wishes to remove a specific item, all the user must do is hit delete on the "Remove" button.
+
+Operation 4: List expired items.
+	- All the user must do is click on the "Expired" button.
+	- If there are no items to show, it will display "No expired items to show."
+	
+Operation 5: List items that are not expired.
+	- All the user must do is click on the "Not Expired " button.
+	- If there are no items to show, it will display "No non-expired items to show."
+
+Operation 6: List items expiring in 7 days.
+	- All the user must do is click on the "Expiring in 7 Days" button.
+	- If there are no items to show, it will display "No items expiring in 7 days to show."
+	
+Operation 7: Exit.
+	- If the user is finished with the program and wishes to exit, the user must click the "X" button at the top right of the program's main application window.
+	- When exiting, it will save all changes the user has done to the list of items to the .json file.
